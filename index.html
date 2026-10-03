@@ -195,11 +195,22 @@
     }
 
     .project-link {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
       margin-top: 14px;
-      color: var(--purple);
-      font-weight: bold;
-      text-decoration: underline;
+      padding: 6px 10px;
+      background: #3F2B61;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+
+    .project-link:hover {
+      background: #5a4280;
     }
 
     .experience {
