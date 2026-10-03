@@ -217,6 +217,23 @@
       background: #5a4280;
     }
 
+    
+    .download-btn {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: #3F2B61;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 8px;
+        font-weight: 600;
+        transition: 0.3s ease;
+    }
+    
+    .download-btn:hover {
+        background-color: #574080;
+        transform: translateY(-2px);
+    }
+
     .experience {
       border-left: 3px solid var(--purple);
       padding: 5px 0 5px 24px;
@@ -308,6 +325,12 @@
         <div class="buttons">
           <a href="#projects" class="btn">Explore My Work</a>
           <a href="#contact" class="btn btn-outline">Contact Me</a>
+          
+          <a href="resume2.pdf"class="download-btn"
+             download="resume2.pdf">
+             <i class="fas fa-download"></i> Download Resume
+          </a>
+             
         </div>
       </div>
     </section>
